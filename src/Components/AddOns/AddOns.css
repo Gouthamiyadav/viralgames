@@ -1,0 +1,74 @@
+.addOn-container {
+  max-width: 900px;
+  margin-left: 74px;
+  margin-top: 10px auto;
+}
+
+h2 {
+  font-size: 24px;
+  color: hsl(213, 96%, 18%);
+}
+
+p {
+  color: hsl(231, 11%, 63%);
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.back-button,
+.next-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 50px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.back-button {
+  background: transparent;
+  color: hsl(213, 96%, 18%);
+}
+
+.next-button {
+  background: hsl(213, 96%, 18%);
+  color: white;
+}
+
+.addons {
+  margin-top: 20px;
+}
+
+.addon-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid hsl(231, 11%, 63%);
+  border-radius: 5px;
+  padding: 14px;
+  width: 440px;
+  margin-bottom: 10px;
+}
+
+.addon-item input {
+  margin-right: 10px;
+}
+
+.addon-item label {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.price {
+  color: hsl(213, 96%, 18%);
+}
+
+.service {
+  margin: 0px;
+  width: 10%;
+}

@@ -1,0 +1,85 @@
+.form-container {
+  /* width: 75%; */
+  padding: 20px;
+  margin-left: 74px;
+  background: white;
+  border-radius: 0 10px 10px 0;
+}
+
+.form-container h2 {
+  margin-bottom: 10px;
+  color: hsl(213, 96%, 18%);
+}
+
+.form-container .para {
+  margin-bottom: 40px;
+  color: hsl(231, 11%, 63%);
+}
+
+.form-group {
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.form-group label {
+  display: block;
+  font-size: 16px;
+  margin-bottom: 5px;
+  color: hsl(213, 96%, 18%);
+}
+
+.next-step {
+  background: hsl(213, 96%, 18%);
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-family: "Ubuntu", sans-serif;
+  cursor: pointer;
+}
+
+.button {
+  margin-top: 46px;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  /* margin-right: 50px; */
+}
+
+.error-message {
+  color: red;
+  font-size: 0.9rem;
+  position: absolute;
+  top: -17px;
+  right: 3px;
+  transform: translateY(50%);
+  white-space: nowrap;
+  display: none;
+}
+
+.error-message.visible {
+  display: block;
+}
+
+.form-group input.input-error {
+  border: 1px solid red;
+  outline: none;
+}
+
+input {
+  width: 95%;
+  padding: 10px;
+  font-size: 1rem;
+  border: 2px solid hsl(229, 24%, 87%);
+  border-radius: 5px;
+  font-size: 16px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  transition: border-color 0.3s ease;
+}
+
+input:focus {
+  border-color: hsl(228, 100%, 84%);
+  outline: none;
+}
